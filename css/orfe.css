@@ -1,3 +1,6 @@
+#branding .block .content {
+  margin-top: 0;
+}
 #branding p > a {
   background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
   background-size: 296.66667px 24.66667px;
