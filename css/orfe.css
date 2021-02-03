@@ -8,7 +8,8 @@
   text-indent: -999em;
   min-width: 300px;
   text-align: left;
-  padding: 1em 0 1em 0;
+  padding: 1em 0 1em 1em;
+  float: left;
 }
 
 /*# sourceMappingURL=orfe.css.map */
