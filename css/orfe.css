@@ -1,3 +1,6 @@
+#branding p {
+  margin: 0;
+}
 #branding .block .content {
   margin-top: 0;
 }
