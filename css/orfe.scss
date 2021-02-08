@@ -1,4 +1,6 @@
 #branding {
+	display: flex;
+	justify-content: space-between;
 	p {
 		margin: 0;
 	}
@@ -8,11 +10,9 @@
 	p > a {
 		background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
 		background-size: 296.66667px 24.66667px;
-		display: block;
 		text-indent: -999em;
 		min-width: 300px;
 		text-align: left;
 		padding: 1em 0 1em 1em;
-		float: left;
 	}
 }
