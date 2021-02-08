@@ -17,3 +17,24 @@
 		display: block;
 	}
 }
+
+.menu--main {
+	background-color: #525355;
+}
+
+.region-primary-menu .menu {
+	padding: 0.5em 0 0.5em 0;
+	text-align: center;
+	ul li {
+		display: inline;
+		vertical-align: middle;
+		margin: 0 0.25em 0 0.25em;
+	}
+	a {
+		color: white;
+	}
+	a.active {
+		color: #c9c9c9;
+	}
+}
+
