@@ -47,13 +47,19 @@
 }
 
 #header {
+	@media only screen and (max-width: 600px) {
+	.region-header {
+		display: flex;
+		justify-content: center;
+	}
 	.region-header .site-branding {
-		@media only screen and (max-width: 600px) {
+		
 			display: flex;
 			flex-flow: column;
 			align-items: center;
 			text-align: center;
-		}	
+			
+		}
 	}
 }
 

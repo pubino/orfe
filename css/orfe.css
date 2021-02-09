@@ -42,6 +42,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #header .region-header {
+    display: flex;
+    justify-content: center;
+  }
   #header .region-header .site-branding {
     display: flex;
     flex-flow: column;
