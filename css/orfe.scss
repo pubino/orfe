@@ -2,7 +2,11 @@
 
 #branding {
 	display: flex;
-	justify-content: space-between;
+	.region-branding {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;	
+	}
 	p {
 		margin: 0;
 	}
@@ -17,6 +21,9 @@
 		text-align: left;
 		padding: 1em 0 1em 1em;
 		display: block;
+	}
+	#block-searchform {
+		padding: 1em 1em 1em 0;
 	}
 }
 
