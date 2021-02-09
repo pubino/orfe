@@ -38,10 +38,6 @@
 			justify-content: center;
 			align-items: baseline;
 		}
-
-		@media only screen and (max-width: 600px) {
-		}
-
 		
 		.search-form .form-search {
 		float: none;
@@ -51,10 +47,11 @@
 }
 
 #header {
-	.region-header {
+	.region-header .site-branding {
 		@media only screen and (max-width: 600px) {
 			display: flex;
-			justify-content: center;
+			flex-flow: column;
+			align-items: center;
 			text-align: center;
 		}	
 	}
