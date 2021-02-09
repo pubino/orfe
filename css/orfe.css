@@ -23,7 +23,10 @@
   display: block;
 }
 #branding #block-searchform {
-  padding: 1em 1em 1em 0;
+  padding: 1em 1em 0 0;
+}
+#branding #block-searchform .search-form .form-search {
+  width: 200px;
 }
 
 .menu--main {
