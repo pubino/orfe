@@ -74,9 +74,13 @@
 #menubar .block-menu ul {
   text-align: center;
 }
+#menubar .block-menu ul.menu {
+  padding: 0;
+}
 #menubar .block-menu ul li {
-  display: inline;
+  display: inline-block;
   vertical-align: middle;
+  padding: 0.5em;
 }
 
 /*# sourceMappingURL=orfe.css.map */
