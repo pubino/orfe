@@ -30,7 +30,7 @@
 }
 #branding p > a {
   background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
-  background-size: 296.66667px 24.66667px;
+  background-size: 300px 45px;
   text-indent: -999em;
   min-width: 300px;
   text-align: left;
@@ -40,7 +40,7 @@
 @media (prefers-color-scheme: dark) {
   #branding p > a {
     background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
-    background-size: 296.66667px 24.66667px;
+    background-size: 300px 45px;
     text-indent: -999em;
     min-width: 300px;
     text-align: left;
