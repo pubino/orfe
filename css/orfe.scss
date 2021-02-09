@@ -70,11 +70,21 @@
 	}
 }
 
-
-#headerwell {
-	.region-headerwell {
+#menubar {
+	.region-menubar {
 		display: flex;
 		flex-flow: column nowrap;
 		align-items: center;
+		}
+	.block-menu {
+		display: flex;
+		justify-content: center;
+			ul {
+				text-align: center;
+			}
+			ul li {
+				display: inline;
+				vertical-align: middle;
+			}
 		}
 }
