@@ -1,6 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 #branding {
   display: flex;
+  background-color: white;
+}
+@media (prefers-color-scheme: dark) {
+  #branding {
+    background-color: #3A444A;
+  }
 }
 #branding .region-branding {
   display: flex;
