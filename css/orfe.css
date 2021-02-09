@@ -6,6 +6,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   #branding .region-branding {
@@ -30,6 +31,15 @@
 }
 #branding #block-searchform {
   padding: 1em 1em 0 0;
+}
+#branding #block-searchform .search-block-form {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  #branding #block-searchform {
+    padding: 0;
+  }
 }
 #branding #block-searchform .search-form .form-search {
   float: none;

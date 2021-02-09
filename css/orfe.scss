@@ -1,12 +1,13 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 
 #branding {
-
 	display: flex;
+	
 	.region-branding {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
+	text-align: center;
 	@media only screen and (max-width: 600px) {
 		flex-flow: column nowrap;
 		justify-content: center;
@@ -30,6 +31,16 @@
 	}
 	#block-searchform {
 		padding: 1em 1em 0 0;
+
+		.search-block-form {
+			display: flex;
+			justify-content: center;
+		}
+
+		@media only screen and (max-width: 600px) {
+			padding: 0;
+		}
+
 		
 		.search-form .form-search {
 		float: none;
