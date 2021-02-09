@@ -6,12 +6,14 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: baseline;
   text-align: center;
 }
 @media only screen and (max-width: 600px) {
   #branding .region-branding {
     flex-flow: column nowrap;
     justify-content: center;
+    align-items: none;
   }
 }
 #branding p {
@@ -29,17 +31,10 @@
   padding: 1em 0 1em 1em;
   display: block;
 }
-#branding #block-searchform {
-  padding: 1em 1em 0 0;
-}
 #branding #block-searchform .search-block-form {
   display: flex;
   justify-content: center;
-}
-@media only screen and (max-width: 600px) {
-  #branding #block-searchform {
-    padding: 0;
-  }
+  align-items: baseline;
 }
 #branding #block-searchform .search-form .form-search {
   float: none;

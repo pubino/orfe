@@ -7,10 +7,12 @@
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
+	align-items: baseline;
 	text-align: center;
 	@media only screen and (max-width: 600px) {
 		flex-flow: column nowrap;
 		justify-content: center;
+		align-items: none;
 	}
 
 	}
@@ -30,15 +32,14 @@
 		display: block;
 	}
 	#block-searchform {
-		padding: 1em 1em 0 0;
-
+	
 		.search-block-form {
 			display: flex;
 			justify-content: center;
+			align-items: baseline;
 		}
 
 		@media only screen and (max-width: 600px) {
-			padding: 0;
 		}
 
 		
