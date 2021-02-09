@@ -70,3 +70,19 @@
 	}
 }
 
+
+#headerwell {
+	.region-headerwell {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		}
+		
+		
+	.menu--main {
+		.menu ul li {
+			display: inline;
+			vertical-align: middle;
+		}
+	}
+}

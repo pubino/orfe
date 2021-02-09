@@ -61,4 +61,14 @@
   color: #c9c9c9;
 }
 
+#headerwell .region-headerwell {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#headerwell .menu--main .menu ul li {
+  display: inline;
+  vertical-align: middle;
+}
+
 /*# sourceMappingURL=orfe.css.map */
