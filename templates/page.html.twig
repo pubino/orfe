@@ -62,6 +62,11 @@
         {{ page.primary_menu }}
       </div>
     </header>
+    {% if page.headerwell %}
+    	<div id="headerwell" class="headerwell" role="banner">
+    	{{ page.headerwell }}
+    	</div>
+    {% endif %}
     {% if page.highlighted %}
       <div class="highlighted">
         <aside class="layout-container section clearfix" role="complementary">
