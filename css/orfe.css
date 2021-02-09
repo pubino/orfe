@@ -13,7 +13,7 @@
   #branding .region-branding {
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: none;
+    align-items: center;
   }
 }
 #branding p {
