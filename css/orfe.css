@@ -61,10 +61,21 @@
   color: #c9c9c9;
 }
 
-#headerwell .region-headerwell {
+#menubar .region-menubar {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+}
+#menubar .block-menu {
+  display: flex;
+  justify-content: center;
+}
+#menubar .block-menu ul {
+  text-align: center;
+}
+#menubar .block-menu ul li {
+  display: inline;
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=orfe.css.map */
