@@ -50,6 +50,16 @@
 	}
 }
 
+#header {
+	.region-header {
+		@media only screen and (max-width: 600px) {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}	
+	}
+}
+
 .menu--main {
 	background-color: #525355;
 }
