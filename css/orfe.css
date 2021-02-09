@@ -69,6 +69,7 @@
 #menubar .block-menu {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 #menubar .block-menu ul {
   text-align: center;
