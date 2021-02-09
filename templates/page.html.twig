@@ -59,9 +59,13 @@
       <div class="section layout-container clearfix">
         {{ page.secondary_menu }}
         {{ page.header }}
-        {{ page.primary_menu }}
       </div>
     </header>
+    {% if page.menubar %}
+    	<div id="menubar" class="menubar" role="navigation">
+	        {{ page.primary_menu }}
+    	</div>
+    {% endif %}
     {% if page.headerwell %}
     	<div id="headerwell" class="headerwell" role="banner">
     	{{ page.headerwell }}
