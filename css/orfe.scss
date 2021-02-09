@@ -78,8 +78,13 @@
 		align-items: center;
 		}
 		
-	.menu--main {
+	.menu--main, .menu--administrative-menu {
 		display: flex;
 		justify-content: center;
+		
+		ul {
+			display: inline-flex;
+		}
+	
 		}
 }
