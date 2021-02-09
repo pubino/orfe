@@ -66,12 +66,5 @@
   flex-flow: column nowrap;
   align-items: center;
 }
-#headerwell .menu--main, #headerwell .menu--administrative-menu {
-  display: flex;
-  justify-content: center;
-}
-#headerwell .menu--main ul, #headerwell .menu--administrative-menu ul {
-  display: inline-flex;
-}
 
 /*# sourceMappingURL=orfe.css.map */
