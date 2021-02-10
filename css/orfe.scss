@@ -121,8 +121,13 @@ body {
 				padding: 0.5em;
 			}
 		}
-	.menu--main .content {
-	margin: 0.5em 0 0.5em 0;
+	.menu--main {
+		a {
+			color: white;
+		}
+		.content {
+			margin: 0.5em 0 0.5em 0;
+		}
 	}
 }
 

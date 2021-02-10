@@ -116,6 +116,9 @@ body {
   vertical-align: middle;
   padding: 0.5em;
 }
+#menubar .menu--main a {
+  color: white;
+}
 #menubar .menu--main .content {
   margin: 0.5em 0 0.5em 0;
 }
