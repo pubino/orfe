@@ -78,7 +78,7 @@ body {
     text-align: center;
   }
 }
-#header .site-branding__text {
+#header .site-branding__text a {
   color: black;
 }
 #header .site-branding__name {
