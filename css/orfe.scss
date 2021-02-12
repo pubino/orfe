@@ -74,6 +74,10 @@ body {
 		.block {
 			margin: 0;
 		}
+		.site-branding {
+			display: flex;
+			align-items: center;
+		}	
 	}
 
 	@media only screen and (max-width: 600px) {
