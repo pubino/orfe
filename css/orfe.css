@@ -81,6 +81,9 @@ body {
     text-align: center;
   }
 }
+#header .site-branding__text {
+  margin-bottom: 0;
+}
 #header .site-branding__text a {
   color: black;
 }
