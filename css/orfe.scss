@@ -68,7 +68,11 @@ body {
 
 	background-color: initial;
 	background-image: initial;
-	
+
+	.region-header .block {
+		margin: 0;
+	}
+
 	@media only screen and (max-width: 600px) {
 	.region-header {
 		display: flex;
