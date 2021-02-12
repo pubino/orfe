@@ -1,5 +1,7 @@
 $menu-link-color: white;
 $menu-bg-color: #525355;
+$hdr-bg-color: initial;
+$hdr-bg-image: initial;
 
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
 body {
@@ -69,8 +71,8 @@ body {
 
 #header {
 
-	background-color: initial;
-	background-image: initial;
+	background-color: $hdr-bg-color;
+	background-image: $hdr-bg-image;
 
 	.region-header {
 		padding: 1em;
