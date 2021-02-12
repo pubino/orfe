@@ -69,6 +69,9 @@ body {
   background-color: initial;
   background-image: initial;
 }
+#header .region-header {
+  padding: 1em;
+}
 #header .region-header .block {
   margin: 0;
 }

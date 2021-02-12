@@ -69,8 +69,11 @@ body {
 	background-color: initial;
 	background-image: initial;
 
-	.region-header .block {
-		margin: 0;
+	.region-header {
+		padding: 1em;
+		.block {
+			margin: 0;
+		}
 	}
 
 	@media only screen and (max-width: 600px) {
