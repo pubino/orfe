@@ -135,5 +135,8 @@ body {
 #menubar .menu--main .content {
   margin: 0.5em 0 0.5em 0;
 }
+#menubar .menu--administrative-menu .block .content {
+  margin: 2px 0 2px 0;
+}
 
 /*# sourceMappingURL=orfe.css.map */
