@@ -54,6 +54,10 @@ body {
 			align-items: baseline;
 		}
 		
+		div[id^="edit-actions"] {
+			margin-right: 0.6em;
+			}
+		
 		.search-form .form-search {
 		float: none;
 		width: 200px;

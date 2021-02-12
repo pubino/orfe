@@ -57,6 +57,9 @@ body {
   justify-content: center;
   align-items: baseline;
 }
+#branding div[id^=edit-actions] {
+  margin-right: 0.6em;
+}
 #branding .search-form .form-search {
   float: none;
   width: 200px;
