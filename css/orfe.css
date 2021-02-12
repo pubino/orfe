@@ -52,12 +52,12 @@ body {
     display: block;
   }
 }
-#branding #block-searchform .search-block-form {
+#branding .search-block-form {
   display: flex;
   justify-content: center;
   align-items: baseline;
 }
-#branding #block-searchform .search-form .form-search {
+#branding .search-form .form-search {
   float: none;
   width: 200px;
 }
