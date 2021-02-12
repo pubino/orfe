@@ -83,6 +83,7 @@ body {
 }
 #header .site-branding__text {
   margin-bottom: 0;
+  padding: 0;
 }
 #header .site-branding__text a {
   color: black;
