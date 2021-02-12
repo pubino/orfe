@@ -88,6 +88,9 @@ body {
 #header .site-branding__text a {
   color: black;
 }
+#header .site-branding__logo {
+  margin: 0;
+}
 #header .site-branding__name {
   font-size: 2.25em;
 }
