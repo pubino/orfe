@@ -161,7 +161,10 @@ body {
   margin-top: 0;
 }
 
-#subbrand .subbrand p > a {
+#subbrand .subbrand {
+  display: flex;
+}
+#subbrand p > a {
   background: url("../images/small-orfe-logo.png") no-repeat 50% 50%;
   background-size: 255px 70px;
   text-indent: -999em;
