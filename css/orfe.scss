@@ -183,4 +183,13 @@ margin-top: 0;
 	.subbrand {
 		display: flex;
 	}
+	p > a {
+		background: url("../images/small-orfe-logo.png") no-repeat 50% 50%;
+		background-size: 300px 45px;
+		text-indent: -999em;
+		min-width: 300px;
+		text-align: left;
+		padding: 1em 0 1em 1em;
+		display: block;
+	}
 }
