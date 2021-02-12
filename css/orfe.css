@@ -110,10 +110,6 @@ body {
   font-size: 2.25em;
 }
 
-.menu--main {
-  background-color: #525355;
-}
-
 .region-primary-menu .menu {
   padding: 0.5em 0 0.5em 0;
   text-align: center;
@@ -151,11 +147,18 @@ body {
   vertical-align: middle;
   padding: 0.5em;
 }
+#menubar .menu--main {
+  background-color: #525355;
+}
 #menubar .menu--main a {
   color: white;
 }
 #menubar .menu--main .content, #menubar .menu--administrative-menu .content {
   margin: 0.5em 0 0.5em 0;
+}
+
+.layout-main {
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=orfe.css.map */
