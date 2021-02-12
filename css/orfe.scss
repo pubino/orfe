@@ -1,3 +1,5 @@
+$menu-link-color: white;
+
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
 body {
   font-family: "Noto Sans", sans-serif;
@@ -162,15 +164,13 @@ body {
 		}
 	.menu--main {
 		a {
-			color: white;
+			color: $menu-link-color;
 		}
+	}
+
+	.menu--main, .menu--administrative-menu {
 		.content {
 			margin: 0.5em 0 0.5em 0;
 		}
 	}
-
-	.menu--administrative-menu .content {
-			margin: 2px 0 2px 0;
-		}
-
 }
