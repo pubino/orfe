@@ -105,6 +105,10 @@ body {
 	
 	.site-branding__logo {
 		margin: 0 1em 0 0;
+		@media only screen and (min-width: 600px) {
+			margin: 0;
+		}
+		
 	}
 
 	.site-branding__name {
