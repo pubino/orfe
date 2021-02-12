@@ -161,4 +161,8 @@ body {
   margin-top: 0;
 }
 
+#subbrand .subbrand {
+  display: flex;
+}
+
 /*# sourceMappingURL=orfe.css.map */
