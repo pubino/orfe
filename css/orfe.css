@@ -161,8 +161,15 @@ body {
   margin-top: 0;
 }
 
+.subbrand {
+  border-top: 20px solid #292929;
+}
+
 #subbrand .subbrand {
   display: flex;
+}
+#subbrand p {
+  margin: 1em;
 }
 #subbrand p > a {
   background: url("../images/small-orfe-logo.png") no-repeat 50% 50%;
