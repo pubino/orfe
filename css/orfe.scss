@@ -2,6 +2,7 @@ $menu-link-color: white;
 $menu-bg-color: #525355;
 $hdr-bg-color: initial;
 $hdr-bg-image: initial;
+$menu-font-weight: normal;
 
 @import 'https://fonts.googleapis.com/css?family=Noto+Sans';
 body {
@@ -165,6 +166,8 @@ body {
 		background-color: $menu-bg-color;
 		a {
 			color: $menu-link-color;
+			font-weight: $menu-font-weight;
+
 		}
 	}
 
